@@ -1,0 +1,14 @@
+{
+  "name": "particles",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "serve": "yarn watch & serve"
+  },
+  "dependencies": {
+    "serve": "^11.0.0",
+    "typescript": "^3.4.3"
+  }
+}
